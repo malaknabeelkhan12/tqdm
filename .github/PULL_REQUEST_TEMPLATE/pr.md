@@ -19,7 +19,7 @@ Less important but also useful:
   environment, where applicable:
   ```python
   import tqdm, sys
-  print(tqdm.__version__, sys.version, sys.platform)
+print(tqdm.__version__, sys.version, sys.platform)
   ```
 
 [source website]: https://github.com/tqdm/tqdm/
