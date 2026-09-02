@@ -80,11 +80,10 @@ The two basic use cases are within Python code and within a CLI:
 simple case would be:
 
 ```python
-from tqdm import tqdm
-from time import sleep
-for i in tqdm(range(100)):
-    sleep(0.1)
-100%|#########################################| 100/100 [00:10<00:00,  9.95it/s]
+from tqdm import tqdm
+from time import sleep
+for i in tqdm(range(100)):
+    sleep(0.1)
 ```
 
 Supported features include:
